@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ouma</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome!</h1>
+      <nav>
+        <ul>
+          <li><a href="#Home">go to my Home</a></li>
+          <li><a href="#About">go to my About</a></li>
+          <li><a href="#Work">go to my Work</a></li>
+          <li><a href="#Resume">go to my Resume</a></li>
+          <li><a href="#Contact">go to my Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="Home">
+        <h2>Home</h2>
+        <img
+          src="foo.jpg"
+          alt=" this is a photo"
+          width="400"
+          height="300"
+          title="Rose"
+        />
+      </section>
+      <br /><br />
+      <section id="About">
+        <h2>About</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem
+          exercitationem numquam accusamus animi sapiente tempore! Rerum
+          voluptatem ab et, vel illum aliquam. Voluptatum, harum. Voluptates
+          eveniet dolorum nemo error.
+        </p>
+      </section>
+      <section id="Work">
+        <h2>Work</h2>
+        <figure>
+          <figcaption>Listen to the sounde:</figcaption>
+          <audio src="audio.mp3" loop controls></audio>
+        </figure>
+      </section>
+      <br /><br />
+      <section id="Resume">
+        <h2>Resume</h2>
+        <iframe src="examen blanc V1 (1).pdf" frameborder="0"></iframe>
+      </section>
+      <br /><br />
+      <section id="Contact">
+        <h2>Contact</h2>
+        <form>
+          <div>
+            <label for="myname">Name:</label>
+            <input type="text" id="myname" required />
+          </div>
+          <br />
+          <div>
+            <label for="myemail">Email:</label>
+            <input type="email" id="myemail" required />
+          </div>
+          <br />
+          <div>
+            <label for="mypass">Password:</label>
+            <input type="password" id="mypass" required />
+          </div>
+          <br />
+          <div>
+            <label>Description</label>
+            <textarea></textarea>
+          </div>
+          <br />
+
+          <div>
+            <input type="submit" value="submit" />
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer><p>Copyright &copy;2024</p></footer>
+  </body>
+</html>
